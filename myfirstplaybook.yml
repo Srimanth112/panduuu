@@ -11,4 +11,4 @@
   - name: Install the package wget
     apt:
      name: wget
-     state: present
+     state: absent
