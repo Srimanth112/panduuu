@@ -6,3 +6,9 @@
 [myappserver]
 172.31.25.218
 172.31.26.216
+
+
+
+[mywebserver:vars]
+ var= value
+mywebpackonubantu= apache222 

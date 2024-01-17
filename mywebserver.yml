@@ -5,12 +5,12 @@
   tasks:
   - name: Install the package "apache2"
     apt:
-     name: apache2
+     name: "{{mywebpackonubantu}}"
      state: present
     when: ansible_os_family =="Debian" 
 
   - name: Start service apache2, on node server
     service:
-      name: "apache2"
+      name: "{{mywebpackonubantu}}"
       state: started  
     when: ansible_os_family =="Debian" 
