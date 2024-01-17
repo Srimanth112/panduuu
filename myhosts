@@ -11,4 +11,4 @@
 
 [mywebserver:vars]
  var= value
-mywebpackonubantu= apache222 
+mywebpackonubantu= apache2
