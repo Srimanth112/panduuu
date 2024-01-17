@@ -1,0 +1,4 @@
+---
+var: value
+mywebpackonubantu: apache2
+myjavapackonubantu: openjdk-11-jdk

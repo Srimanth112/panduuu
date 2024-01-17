@@ -1,0 +1,9 @@
+--- 
+- hosts: mywebserver
+  become: yes
+  tasks:
+  - name: install java on ubuntuu
+    apt:
+      name: "{{mywebpackonubantu}}" 
+      state: present 
+    when: ansible_os_family =="Debian"  
