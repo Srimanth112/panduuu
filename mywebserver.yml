@@ -14,3 +14,10 @@
       name: "{{mywebpackonubantu}}"
       state: started  
     when: ansible_os_family =="Debian" 
+
+  - name: Install the package "wget"
+    apt:
+     name: "{{myjavapackonubantu}}"
+     state: present
+    when: ansible_os_family =="Debian" 
+  
