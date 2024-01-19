@@ -1,0 +1,11 @@
+--- 
+- hosts: 172.31.35.136
+  become: yes
+  vars:
+   vars01: git
+   var02: apache2
+   var03: wget
+  tasks: 
+  - name: i want to display vars01
+    debug:
+      msg: "{{varo1}}"
