@@ -3,4 +3,4 @@ var: value
 mywebpackonubantu: apache2
 
 myjavapackonubantuuuu: openjdk-11-jdk
-myjavapackonredhat: openjdk-13-jdk
+myjavapackonredhat: jdk-11-openjdk
