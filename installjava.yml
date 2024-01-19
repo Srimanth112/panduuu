@@ -4,6 +4,12 @@
   tasks:
   - name: install java on ubuntuu
     apt:
+      name: "{{myjavapackonubantuuuu}}" 
+      state: present 
+    when: ansible_os_family =="Debian" 
+
+  - name: install java on ubuntuu
+    apt:
       name: "{{myjavapackonubantu}}" 
       state: present 
     when: ansible_os_family =="Debian"  

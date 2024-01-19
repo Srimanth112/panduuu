@@ -1,4 +1,6 @@
 ---
 var: value
 mywebpackonubantu: apache2
-myjavapackonubantu: openjdk-11-jdk
+
+myjavapackonubantuuuu: openjdk-11-jdk
+myjavapackonubantu: openjdk-13-jdk
