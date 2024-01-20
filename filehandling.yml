@@ -1,0 +1,14 @@
+--- 
+- hosts: all 
+  become: yes
+  tasks:
+  - include_tasks: myfile.yml
+  - name: install webserver
+    apt:
+      name: apache2
+      state: present 
+
+  - name: copy static file into node side 
+    copy:
+      src: mystaticfile
+      dest: /home/ubuntu/mystaticfile
